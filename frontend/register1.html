@@ -76,11 +76,11 @@
                step2 : <br/>Fill in your information
             </div>
             <div id="step3" class="step3">
-            step3 : <br/>Confirm your information
+                step3 : <br/>Send E-mail to finish
             </div>
         </div>
 
-        <form onsubmit="return checkInfo()" method="POST" action="./register2.html">
+        <form onsubmit="return checkInfo()" method="GET" action="register2.html">
             <div id = "confirmMsg"></div>
             <!-- Page 1 -->
             <div name="form1" id="form1">  
@@ -93,11 +93,10 @@
                 Password <span>*</span> <br/>
                 <input id="password" type="password" placeholder="8~16 alphabets or numbers" required pattern="[0-9a-zA-Z]{8,16}"/>
                     <span class="ok">ok</span><br/>
-                Email address <span>*</span> <br/>
+                <!-- Email address <span>*</span> <br/>
                 <input id="email" type="email" required />
-                    <span class="ok">ok</span><br/>
-                Phone number <br/>
-                <input id="phone" type="text" pattern="[0-9]{8,10}" required/>
+                    <span class="ok">ok</span><br/> -->
+                
                     <br/><br/>
                     <input id="nx1" type="submit" value="Next" />
                     <!-- <button id="nx1">Next</button> -->
